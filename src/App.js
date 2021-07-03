@@ -17,7 +17,7 @@ function App() {
     setCalc(Math.cos(calc));
   }
   const Tan = () => {
-    setCalc(Sin/Cos);
+    setCalc(Math.tan(calc));
   }
 
   const Calculate = () => {
